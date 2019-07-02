@@ -1,0 +1,26 @@
+{
+  "name": "clearing-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon --ext js ./server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "apollo-server": "^2.6.3",
+    "graphql": "^14.3.1",
+    "node-fetch": "^2.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sidenis/clearing-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sidenis/clearing-service/issues"
+  },
+  "homepage": "https://github.com/Sidenis/clearing-service#readme"
+}
